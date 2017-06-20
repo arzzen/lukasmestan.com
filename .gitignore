@@ -1,2 +1,4 @@
-_docs/*
-nbproject/*
+.DS_Store
+_site
+.sass-cache
+Gemfile.lock
