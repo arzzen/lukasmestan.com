@@ -1,7 +1,7 @@
 ---
 title: "[en] Git quick statistics :chart_with_upwards_trend:"
 layout: post
-date: 2017-06-21 18:00
+date: 2017-06-21 15:00
 tag: [git, bash, statistics]
 image: https://arzzen.github.io/git-quick-stats/bg.png
 headerImage: false

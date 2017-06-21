@@ -1,7 +1,7 @@
 ---
 title: "[en] Program evaluation and review technique"
 layout: post
-date: 2017-06-21 19:00
+date: 2017-06-21 16:00
 tag: [bash, pert, review, evaluation, statistics]
 image: https://arzzen.github.io/git-quick-stats/bg.png
 headerImage: false
