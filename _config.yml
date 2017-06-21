@@ -1,9 +1,9 @@
 # main text of home
 name: Lukáš Mešťan
-bio: Software Developer & Open Source Enthusiast.
+bio: Software engineer with a background in full-stack Web development & Open Source Enthusiast.
 
 # twitter summary info
-description: Lukas Mestan - Software Developer & Open Source Enthusiast.
+description: Lukas Mestan - Software engineer with a background in full-stack Web development & AWS cloud computing. Open Source Enthusiast.
 
 # if it's an external image, update below for true
 # better with square images
@@ -50,7 +50,7 @@ github: arzzen
 # reddit: username
 #medium: medium
 # vimeo: myvimeo
-email: lukasmestan@gmail.com
+#email: lukasmestan@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -62,7 +62,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: false
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: false
