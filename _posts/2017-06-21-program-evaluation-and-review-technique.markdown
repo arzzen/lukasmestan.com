@@ -13,7 +13,9 @@ author: arzzen
 externalLink: false
 ---
 
-![pert example](https://cloud.githubusercontent.com/assets/6382002/13582789/8205bac0-e4ae-11e5-9a03-894e32943f30.gif)
+<center>
+    <img alt="pert" src="https://cloud.githubusercontent.com/assets/6382002/13582789/8205bac0-e4ae-11e5-9a03-894e32943f30.gif" />
+</center>
 
 > `pert` a simple utility to estimate tasks using PERT (Program evaluation and review technique)
 

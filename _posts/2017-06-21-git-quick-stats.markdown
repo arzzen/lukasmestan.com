@@ -13,7 +13,9 @@ author: arzzen
 externalLink: false
 ---
 
-![Screenshot](https://arzzen.github.io/git-quick-stats/bg.png)
+<center>
+    <img alt="git-stats" src="https://arzzen.github.io/git-quick-stats/bg.png" />
+</center>
 
 > `git quick-stats` is a simple and efficient way to access various statistics in git repository.
 
