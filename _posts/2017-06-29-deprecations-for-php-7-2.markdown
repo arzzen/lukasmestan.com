@@ -1,5 +1,5 @@
 ---
-title: "Deprecations for PHP 7.2"
+title: "Zastaralé funkcie v PHP 7.2"
 layout: post
 date: 2017-06-29 15:00
 tag: [php, php7.2, rfc]
@@ -8,7 +8,7 @@ headerImage: false
 projects: false
 hidden: false # don't count this post in blog pagination
 description: "RFC: Deprecations for PHP 7.2"
-category: php
+category: blog
 author: arzzen
 externalLink: false
 ---
