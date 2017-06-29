@@ -13,8 +13,6 @@ author: arzzen
 externalLink: false
 ---
 
-# Zastarané funkcie v PHP 7.2
-
 ## __autoload
 
 Od použitia funkcie *__autoload* sa v dokumentácii odrádza už od verzie php 5.1, 
