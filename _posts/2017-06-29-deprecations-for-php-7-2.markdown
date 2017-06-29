@@ -13,6 +13,9 @@ author: arzzen
 externalLink: false
 ---
 
+Vzhľadom k blížiacemu sa konci [aktívnej podpory](http://php.net/supported-versions.php) verzii php 5.6 a 7.0
+je dobré poznať, ktoré funkčnosti budú označené varovaním E_DEPRECATED alebo E_NOTICE (odstránené budú vo verzii 8.0). 
+
 ## __autoload
 
 Od použitia funkcie *__autoload* sa v dokumentácii odrádza už od verzie php 5.1, 
