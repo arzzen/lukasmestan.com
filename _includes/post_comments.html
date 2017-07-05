@@ -1,0 +1,59 @@
+<div class="clearfix"></div>
+<hr />
+
+<section>
+    <h2 class="post-title"><strong>Comments</strong></h2>
+    <article class="post-content">
+        <p>Want to leave a comment? Visit <a href="https://github.com/arzzen/lukasmestan.com/issues/{{page.commentIssueId}}"> this post's issue page on GitHub</a> (you'll need a GitHub account).</p>
+    </article>
+    <div id="disqus_thread" class="container">
+        
+    </div>
+</section>
+
+<script type="text/javascript">
+    function loadComments(data) {
+        for (var i = 0; i < data.length; i++) {
+            var cuser = data[i].user.login;
+            var cuserlink = data[i].user.html_url;
+            var clink = data[i].html_url;
+            var cbody = data[i].body_html;
+            var cavatarlink = data[i].user.avatar_url || "https://ssl.gstatic.com/accounts/ui/avatar_2x.png";
+            var cdate = new Date(data[i].created_at);
+            var dopts = {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+            };
+
+            $("#disqus_thread").append(
+                '<div class="row">'+
+                    '<div class="col-sm-1">'+
+                        '<div class="thumbnail">'+
+                            '<img class="img-responsive user-photo" src="'+cavatarlink+'">'+
+                        '</div>'+
+                    '</div>'+
+                    '<div class="col-sm-7">'+
+                        '<div class="panel panel-default">'+
+                            '<div class="panel-heading">'+
+                                '<strong><a target="_blank" href="'+cuserlink+'">'+cuser+'</a></strong>'+
+                                '<span class="text-muted pull-right">'+cdate.toLocaleDateString("en", dopts)+'</span>'+
+                            '</div>'+
+                            '<div class="panel-body">'+
+                                cbody +
+                            '</div>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'
+            );
+        }
+    }
+
+    $.ajax("https://api.github.com/repos/arzzen/lukasmestan.com/issues/{{ page.commentIssueId }}/comments", {
+        headers: {Accept: "application/vnd.github.v3.html+json"},
+        dataType: "json",
+        success: function (msg) {
+            loadComments(msg);
+        }
+    });
+</script>
