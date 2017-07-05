@@ -86,6 +86,8 @@ show-author: false
 # do you want some animations?
 animation: false
 
+github_comments: true
+
 gems:
   - jekyll-seo-tag
   - jekyll-gist
@@ -94,3 +96,4 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+

@@ -10,6 +10,7 @@ hidden: false # don't count this post in blog pagination
 description: "RFC: Deprecations for PHP 7.2"
 category: blog
 author: arzzen
+commentIssueId: 1
 externalLink: false
 ---
 

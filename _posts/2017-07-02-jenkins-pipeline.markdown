@@ -1,13 +1,14 @@
 ---
 title: "Jenkins Pipeline :electric_plug:"
 layout: post
-date: 2016-07-02 17:00
+date: 2017-07-02 17:00
 image: /assets/images/jenkinspipeline.png
 headerImage: false
 tag: [jenkins, pipeline, CI]
-star: true
+star: false
 category: blog
 author: arzzen
+commentIssueId: 2
 description: Jenkins pipeline
 ---
 

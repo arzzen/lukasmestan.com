@@ -23,6 +23,10 @@ layout: page
 
 {{content}}
 
+{% if site.github_comments and page.commentIssueId %}
+    {% include post_comments.html %}
+{% endif %}
+
 {% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
         {% if page.previous.url %}
