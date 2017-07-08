@@ -5,7 +5,7 @@ date: 2017-07-05 17:00
 image: /assets/images/jenkinspipeline.png
 headerImage: false
 tag: [jenkins, pipeline, CI, jenkinsfile]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 3
