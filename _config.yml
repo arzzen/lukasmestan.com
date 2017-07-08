@@ -17,7 +17,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: http://lukasmestan.com
+url: https://lukasmestan.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
