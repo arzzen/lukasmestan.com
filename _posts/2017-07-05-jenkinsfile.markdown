@@ -2,7 +2,7 @@
 title: "Poznáte Jenkinsfile?"
 layout: post
 date: 2017-07-05 17:00
-image: /assets/images/jenkinspipeline.png
+image: /assets/images/poznate-jenkinsfile.png
 headerImage: false
 tag: [jenkins, pipeline, CI, jenkinsfile]
 star: false

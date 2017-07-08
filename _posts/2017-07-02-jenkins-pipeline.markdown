@@ -2,7 +2,7 @@
 title: "Jenkins Pipeline :electric_plug:"
 layout: post
 date: 2017-07-02 17:00
-image: /assets/images/jenkinspipeline.png
+image: /assets/images/Jenkins-pipeline.png
 headerImage: false
 tag: [jenkins, pipeline, CI]
 star: false

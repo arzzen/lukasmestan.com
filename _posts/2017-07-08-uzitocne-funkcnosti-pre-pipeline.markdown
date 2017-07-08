@@ -2,7 +2,7 @@
 title: "Užitočné funkčnosti pre pipeline"
 layout: post
 date: 2017-07-08 10:00
-image: /assets/images/jenkinspipeline.png
+image: /assets/images/uzitocne-funkcnosti.png
 headerImage: false
 tag: [jenkins, pipeline, CI, jenkinsfile]
 star: true
