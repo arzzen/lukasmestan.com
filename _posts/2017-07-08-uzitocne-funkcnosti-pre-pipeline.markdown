@@ -5,7 +5,7 @@ date: 2017-07-08 10:00
 image: /assets/images/uzitocne-funkcnosti.png
 headerImage: false
 tag: [jenkins, pipeline, CI, jenkinsfile]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 4
