@@ -2,7 +2,7 @@
 title: "Jenkins tipy a triky"
 layout: post
 date: 2017-07-12 10:00
-image: /assets/images/cool-jenkins2x3.png
+image: /assets/images/jenkins-tipy-triky.png
 headerImage: false
 tag: [jenkins, best practices]
 star: true
