@@ -13,7 +13,7 @@ description: Jenkins odporúčania - tipy a triky (best practices)
 ---
 
 <center>
-    <img src="/assets/images/cool-jenkins2x3.png" /> 
+    <img src="/assets/images/cool-jenkins2x3.png" alt="cool-jenkins" /> 
 </center>
 
 Používanie _Jenkins_-u je veľmi intuitívne a jednoduché. Navyše, pri dodržiavaní základných pravidiel, dosiahnete vyššiu efektivitu práce.
