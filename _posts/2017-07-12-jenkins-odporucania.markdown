@@ -1,7 +1,7 @@
 ---
 title: "Jenkins tipy a triky"
 layout: post
-date: 2017-07-12 10:00
+date: 2017-07-18 10:00
 image: /assets/images/jenkins-tipy-triky.png
 headerImage: false
 tag: [jenkins, best practices]
@@ -41,7 +41,11 @@ Používanie _Jenkins_-u je veľmi intuitívne a jednoduché. Navyše, pri dodr�
 - Job-y sa snažte uržiavať čo najjednoduchšie.
 - Používajte **template builder** pre zjednodušnie opakujúcich sa úloh.
 - Nevkladajte kvantum _bash skriptov_ do každého _job_-u. Ak je to nevyhnutné presuňte skript do Git repozitára a ten si následne _checkout_-nite.
+- Používajte `checkout scm` pre automaticky _checkout_ revizie _branch_-u repozitára
+- Používajte `$env.BRANCH_NAME` pre určovanie logiky na základe _branch_-u v pipeline skripte
+- Pre urýchlenie debugovania job-u používajte v detaile _buildu_ možnosť "_Reply_", kde môžete priamo "on demand" upravovať pipeline skripty a zároveň ho aj spúšťat.
 - Neukladajte pipeline skripty v rámci Jenkins filtesystému (radšej ich udržiavajte vo verziovacom systéme).
+- Nevkladajte blok _states_ do ploku _parallel_ môže to viest k neočakávaným výsledkom, logickým problémom v _Stage View_ a pod.
 - Všetko podstatné, vykonávajte v **stage** bloku. Toto vám umožní prehľadnejšiu vizualizáciu, debugovanie a podobne.
 ```groovy
 stage('build') {
@@ -83,11 +87,18 @@ Na druhej strane _archive_ je stavaný pre dlhotrvajúce súbory ako napríklad 
 stash excludes: 'target/', name: 'source'
 unstash 'source'
 ```
-- Pri každom _pipeline_ skripte používajte na prvom riadku príkaz `#!groovy`.
+- Pri každom _pipeline_ skripte používajte na prvom riadku príkaz `#!groovy` alebo `#!/usr/bin/env groovy`.
 - Obalujte vstupy od používateľa v bloku `timeout`.
 ```groovy
 timeout(time:5, unit:'DAYS') {
     input message:'Approve deployment?', submitter: 'it-ops'
+}
+```
+- V prípade, že potrebujete pracovať s asociativným poľom `[key,value]` použíte `Map` funkciu:
+```groovy
+@NonCPS 
+def entries(m) {
+    m.collect {k, v -> [k, v]}
 }
 ```
 
