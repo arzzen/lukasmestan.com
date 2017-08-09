@@ -5,7 +5,7 @@ date: 2017-07-18 10:00
 image: /assets/images/jenkins-tipy-triky.png
 headerImage: false
 tag: [jenkins, best practices]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 5
