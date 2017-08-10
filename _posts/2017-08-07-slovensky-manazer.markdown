@@ -32,7 +32,7 @@ Pri každej uvádzam rýchle argumenty, ktoré hrajú v prospech vypovedaniu "bo
 pre:
 
 - „To" bude rýchlo nasadené.
-- Testovanie prebehne na skutoćných užívateľoch. 
+- Testovanie prebehne na skutočných užívateľoch. 
 
 proti:
 
@@ -55,8 +55,6 @@ proti:
 - Nespokojný klient.
 - Riziko zlej referencie a strata klienta.
 - Demotivovaný zamestnanec.
-- V tomto prípade namiesto "Kto nič nedojebe, nič nerobí" platí skôr takto: „Kto veľa dojebe, veľa urobí."
-
 
 ### "Hmmm, aké pekné grafy. Takže UML sa to volá? Boha, toto by sa nám zišlo.... (rok späť, odvtedy kde nič, tu nič)"
 
@@ -120,12 +118,12 @@ pre:
 
 proti:
 
-- Nápady, inovácie, či smerovanie projektu alebo hľadanie riešení k problémom sa obmedzujú na v lepšom prípade jeden pohľad, v horšom jeden subjektívny pohľad a v najhoršom jeden subjektívny zasleúený neodborný a neskúsený pohľad. 
+- Nápady, inovácie, či smerovanie projektu alebo hľadanie riešení k problémom sa obmedzujú na v lepšom prípade jeden pohľad, v horšom jeden subjektívny pohľad a v najhoršom jeden subjektívny zaslepeý neodborný a neskúsený pohľad. 
 - Uzavretosť tímu voči okoliu. 
 - Nepriechodnosť nových vecí. 
 
 
-### "Opravil som to a zrychlil. Mozem tak urobit aj s ostatnymi? Nie. vrat to spat do povodneho stavu nech to je vsetko jednotne!
+### "Opravil som to a zrychlil. Mozem tak urobit aj s ostatnymi? Nie. vrat to spat do povodneho stavu nech to je vsetko jednotne!"
 alebo 
 <h3 style="margin-top: 0">"Prečo by sme to mali navrhovať s ohľadom na rýchlosť chlapi? Chcete leštiť kapotu skôr ako je auto hotové?"</h3>
 
