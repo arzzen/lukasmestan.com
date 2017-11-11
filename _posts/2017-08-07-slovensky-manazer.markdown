@@ -5,7 +5,7 @@ date: 2017-08-07 10:00
 image: /assets/images/slovensky-manazer.png
 headerImage: false
 tag: [manazer, slovenskymanazer]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 6
