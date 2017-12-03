@@ -1,7 +1,7 @@
 ---
 title: "Zdieľané knižnice v Jenkins pipeline"
 layout: post
-date: 2017-11-17 10:00
+date: 2017-11-30 10:00
 image: /assets/images/jenkins-zdielane-kniznice.png
 headerImage: false
 tag: [jenkins, pipeline, kniznice]
