@@ -5,7 +5,7 @@ date: 2017-11-05 10:00
 image: /assets/images/jenkins-gitlab-env.png
 headerImage: false
 tag: [jenkins, pipeline, env]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 7
