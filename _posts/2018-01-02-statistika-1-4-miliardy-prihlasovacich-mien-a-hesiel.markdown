@@ -29,17 +29,24 @@ Heslá | 463 619 984 |
 Rozhodol som sa preto spraviť pomerne jednoduchú analýzu, ktorá by sa zameriavala na zistenie početnosti 
 výskytov všeobecne známych slov so zoznamu mien, vulgarizmov, najčastejšie používaných slov a pod.
 
-Získať zdroj databázy nebolo až tak jednoduché ako sa na prvý pohľad zdalo, ale za pomoci 
-tor-u a p2p sa to nakoniec z verejne dostupného zdroja podarilo.
-Získaná databáza o veľkosti 41giga obsahovala zoznam súborov aktualizovaných naposledy v novembri 2017.
-Databáza bola rozdelená do podadresárov podla začiatočných písmen prihlasovacieho mena, takéto 
+Získať zdroj databázy nebolo až tak jednoduché, ako sa na prvý pohľad zdalo, ale za pomoci 
+_tor-u_ a _p2p_ sa to nakoniec z verejne dostupného zdroja podarilo.
+Získaná databáza o veľkosti 41GB obsahovala zoznam súborov aktualizovaných naposledy v novembri 2017.
+Databáza bola rozdelená do podadresárov podľa začiatočných písmen prihlasovacieho mena. Takéto 
 rozdelenie umožnilo pomerne rýchle vyhľadávanie.
 
 <img src="/assets/images/data_breach_fragmented_sorted_directories.png" alt="directories" />
 
+# Email domény
+
+Zoznam najčastejších emailových domén a ich použitie v prihlasovacích menách (vo forme emailu) a heslách.
+
+<iframe width="810" height="650" frameBorder="0" border="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfB09JrL8-RHZvFzFMQDF3Zvhj8hMz7cKxIT4yA8DoKPg--stndIYRsE-h22damewTO4P-6ZyquQYs/pubhtml?gid=6933647&single=true&amp;widget=true&amp;headers=false"></iframe>
+
 # Slovenské mená
 
 Ako prvý zoznam som si zvolil slovenské kalendárne mená, ktoré sa nachádzajú v prihlasovacích menách alebo heslách. 
+V zozname slov sú zahrnuté aj slová ktoré sú zhodné s inými slovnými zásobami iných krajín.
 
 ## Top 100 slovenských mien
 
@@ -57,6 +64,7 @@ Ako prvý zoznam som si zvolil slovenské kalendárne mená, ktoré sa nachádza
 
 Pri druhom zozname ma zaujímal počet vulgárnych slov, ktoré sa nachádzajú v prihlasovacích menách alebo heslách. 
 Ako vstupný zoznam vulgárnych slov som pouzil existujúci repozitár [rostacik/slovenske-nadavky](https://github.com/rostacik/slovenske-nadavky) na githube. 
+V zozname slov sú zahrnuté aj slová ktoré sú zhodné s inými slovnými zásobami iných krajín.
 
 ## Top 100 slov
  
@@ -69,14 +77,6 @@ Ako vstupný zoznam vulgárnych slov som pouzil existujúci repozitár [rostacik
 ## Slovenské vulgarizmy (presná zhoda)
 
 <iframe width="810" height="650" frameBorder="0" border="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfB09JrL8-RHZvFzFMQDF3Zvhj8hMz7cKxIT4yA8DoKPg--stndIYRsE-h22damewTO4P-6ZyquQYs/pubhtml?gid=1058246037&single=true&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-<small>ps.: v zozname slov sú zahrnuté aj slová ktoré sú zhodné s inými slovnými zásobami iných krajín.</small>
-
-# Email domény
-
-Zoznam najčastejších emailových domén a ich použitie v prihlasovacích menách (vo forme emailu) a heslách.
-
-<iframe width="810" height="650" frameBorder="0" border="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfB09JrL8-RHZvFzFMQDF3Zvhj8hMz7cKxIT4yA8DoKPg--stndIYRsE-h22damewTO4P-6ZyquQYs/pubhtml?gid=6933647&single=true&amp;widget=true&amp;headers=false"></iframe>
 
 # Spôsob vyhľadávania
 
