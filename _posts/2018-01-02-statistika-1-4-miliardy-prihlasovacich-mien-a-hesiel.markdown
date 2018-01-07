@@ -8,7 +8,7 @@ tag: [statistika, darkweb, data breach]
 star: true
 category: blog
 author: arzzen
-commentIssueId: 8
+commentIssueId: 9
 description: Štatistika 1,4 miliardy prihlasovacích mien a hesiel inak.
 ---
 
