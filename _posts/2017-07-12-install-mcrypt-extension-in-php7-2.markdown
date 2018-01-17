@@ -8,7 +8,7 @@ tag: [jenkins, best practices]
 star: false
 category: blog
 author: arzzen
-commentIssueId: 5
+commentIssueId: 10
 description: How to install mcrypt extension in php7.2
 ---
 
