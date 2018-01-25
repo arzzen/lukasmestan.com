@@ -32,6 +32,6 @@ Github, Amazon Web Services, Bitbucket, Dropbox
 
 ## Favourite movies
 
-[Toxic Avenger](http://www.imdb.com/title/tt0090190/?ref_=fn_al_tt_1), [Fire in the Sky](http://www.imdb.com/title/tt0106912/?ref_=nv_sr_1), [The Final Countdown](http://www.imdb.com/title/tt0080736/?ref_=nv_sr_1)
+[Toxic Avenger](http://www.imdb.com/title/tt0090190/?ref_=fn_al_tt_1), [Fire in the Sky](http://www.imdb.com/title/tt0106912/?ref_=nv_sr_1), [The Final Countdown](http://www.imdb.com/title/tt0080736/?ref_=nv_sr_1), [Capricorn One](http://www.imdb.com/title/tt0077294/)
 
 
