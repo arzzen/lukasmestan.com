@@ -4,7 +4,7 @@ layout: post
 date: 2017-12-20 10:00
 image: /assets/images/php-mcrypt.jpg
 headerImage: false
-tag: [jenkins, best practices]
+tag: [php7, tutorial]
 star: false
 category: blog
 author: arzzen
