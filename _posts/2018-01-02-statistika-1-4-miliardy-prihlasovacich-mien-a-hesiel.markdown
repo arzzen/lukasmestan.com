@@ -5,7 +5,7 @@ date: 2018-01-02 10:00
 image: /assets/images/o-uctoch-a-heslach.png
 headerImage: false
 tag: [statistika, darkweb, data breach]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 9
