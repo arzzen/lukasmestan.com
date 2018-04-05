@@ -39,26 +39,20 @@ PECL Libsodium refers to the PHP extension available as a PECL package that expo
 Version 7.2.0 and newer of the PHP programming language includes the Sodium extension (referred to as ext/sodium) as a core cryptography library. Version 2 of the PHP extension in PECL is compatible with ext/sodium in PHP 7.2.
 
 ```bash
-
-sudo pecl install libsodium
+sudo pecl install -f libsodium
 ```
 
 On some Linux distributions such as Debian, you may have to install PECL (php-pear), 
 the PHP development package (php-dev) and a compiler (build-essential) prior to running this command.
 
-After success installing libsodium trought pecl, you should add sodium.so extension to php.ini.
-
-The output will look like this:
+After success installing libsodium trought pecl, you should add `sodium.so` extension to `php.ini`.
 
 ```bash
-...
-# as root
-echo "extension = sodium.so" > /etc/php/7.1/mods-available/sodium.ini
-phpenmod sodium 
+sudo echo "extension = sodium.so" > /etc/php/7.1/mods-available/sodium.ini
+sudo phpenmod sodium 
 ```
 
-You might be able to achieve this result by running `phpenmod` sodium or `php5enmod` sodium, depending on which webserver you use. 
-Make sure you restart your webserver after installing ext/sodium.
+You might be able to achieve this result by running `phpenmod` sodium or `php5enmod` sodium, depending on which webserver you use. Make sure you restart your webserver after installing ext/sodium.
 
 ## Verify that the extension was installed
 
