@@ -668,25 +668,22 @@ survey
             for (var key in matrix) {
                 if (matrix.hasOwnProperty(key)) {     
                     if(maxScore >= matrix[key].min && maxScore <= matrix[key].max) {
-                        var level = matrix[key].next;
-                        if( maxScore >= matrix["Profesional"].min ) {
-                            msg = "Nice, you are <br> ";
-                            level = "Profesional";
+                        var p = Math.round((maxScore / matrix["Profesional"].max) * 100);
+
+                        if( p >= 90 ) {
+                            msg = "Nice, you are <br>Profesional";
                         } else {
-                            var msg = "You have to work harder,<br> if you want to be ";
-                            if( percent(matrix[key].max, maxScore) <= 50  ) {
-                                level = matrix[key].next;
-                                msg = "You are so close,<br> if you want to be ";
+                            var msg = "You have to work harder,<br> if you want to be Profesional";
+                            if( p <= 50  ) {
+                                msg = "You are so close,<br> if you want to be Intermediate";
                             } 
-                            
-                            var p = Math.round((maxScore / matrix[key].max) * 100);
 
                             document
                             .querySelector('#surveyResult')
                             .innerHTML = "<br>" + 
                                          "<h3><center>You reached:</center></h3>" +
                                          "<h1><center style='color:#022b6d; font-weight:bold; font-size: 85px'>" + p + "%</center></h1>" + 
-                                         "<h3><center>" + msg + level + "</center></h3>"
+                                         "<h3><center>" + msg + "</center></h3>"
                             ;
                         }
                     }
