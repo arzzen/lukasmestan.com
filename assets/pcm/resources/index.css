@@ -1,0 +1,70 @@
+.matrix-vert {
+  display: none;
+  margin-left: 10px;
+}
+
+.sv_header h3 {
+  font-weight: bold !important;
+  color: #022b6d;
+}
+
+.sv_page_title {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #022b6d;
+}
+
+.sv_main.sv_default_css .sv_body {
+    border-color: #022b6d !important;
+}
+
+.sv_main.sv_default_css input[type="button"], .sv_default_css button {
+    color: white;
+    background-color: darkblue !important;
+}
+
+.sv_body.sv_completed_page {
+  padding: 0 !important;
+}
+
+/* Fix for Survey Question checkboxes and radio buttons */
+@media screen and (max-width: 767px) {
+  div.question-margin div.radio label span,
+  div.question-margin div.checkbox label span {
+    margin-left: 23px !important;
+  }
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 480px) {
+  div.question-margin table {
+    display: block;
+  }
+  div.question-margin thead {
+    display: none;
+  }
+  div.question-margin tbody, 
+  div.question-margin tr,
+  div.question-margin td {
+    display: block;
+    margin: 5px 0;
+    border-radius: 4px;
+  }
+  .table-striped > tbody > tr {
+    background-color: #fff !important;
+  }
+  div.question-margin table tbody tr td:first-child {
+    margin: 10px 0 5px !important;
+    border-top: none;
+  }
+  div.question-margin table tbody tr td:not(:first-child) {
+    background-color: #eee;
+  }
+  div.question-margin table tbody input[type=radio],
+  div.question-margin table tbody input[type=checkbox] {
+    margin: 0 0 0 5px !important
+  }
+  .matrix-vert {
+    display: inline;
+  }
+}
