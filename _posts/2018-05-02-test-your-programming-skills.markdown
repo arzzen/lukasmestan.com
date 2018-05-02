@@ -1,14 +1,14 @@
 ---
-title: "Measure programming proficiency"
+title: "Test your programming skills"
 layout: post
 date: 2018-05-01 01:00
 image: /assets/images/measure-programming-proficiency.jpg
 headerImage: false
-tag: [programming, measurements, proficiency]
+tag: [programming, measurements, skills, level]
 star: true
 category: blog
 author: arzzen
-commentIssueId: 11
+commentIssueId: 12
 description: What is the single most important factor determining the programmer level?
 ---
 
