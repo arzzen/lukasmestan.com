@@ -23,6 +23,10 @@
     background-color: darkblue !important;
 }
 
+.sv_body.sv_completed_page {
+  padding: 0 !important;
+}
+
 /* Fix for Survey Question checkboxes and radio buttons */
 @media screen and (max-width: 767px) {
   div.question-margin div.radio label span,

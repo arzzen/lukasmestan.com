@@ -4,8 +4,17 @@ var choices = [
     "Beginner",
     "Intermediate",
     "Advanced",
-    "Profesional",
+    "Profesional"
 ];
+//var choices_alt = choices;
+
+var choices_alt = [
+    "I don't know what your talking about",
+    "I heard about it",
+    "Yes",
+    "Of course, no problem"
+];
+
 var json = {
     //title: "Programmer Competency Matrix",
     pages: [
@@ -18,7 +27,7 @@ var json = {
                     title: "Do you know the difference between Array and LinkedList?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -31,7 +40,7 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q3",
-                    title: "Do you knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, Able to explain how hashtables can be implemented and can handle collisions, Priority queues and ways to implement them etc?",
+                    title: "Are you able to explain how hashtables can be implemented and can handle collisions, priority queues and ways to implement them etc?",
                     isRequired: true,
                     colCount: 1,
                     choices: choices
@@ -39,10 +48,10 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q4",
-                    title: "Do you know knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc?",
+                    title: "Do you know advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -50,7 +59,7 @@ var json = {
                     title: "Are you able to find the average of numbers in an array?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -58,23 +67,24 @@ var json = {
                     title: "Do you know sorting, searching and data structure traversal and retrieval algorithms?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q7",
-                    title: "Do you know what is Tree, Graph, simple greedy and divide and conquer algorithms, is able to understand the relevance of the levels of this matrix?",
+                    title: "Do you know what is Tree, Graph, simple greedy and divide and conquer algorithms, are you able to understand the relevance of the levels of this matrix?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q8",
-                    title: "Are you able to recognize and code dynamic programming solutions, good knowledge of graph algorithms, good knowledge of numerical computation algorithms, able to identify NP problems etc?",
+                    title: "Are you able to recognize and code dynamic programming solutions, graph algorithms, " +
+                    "numerical computation algorithms and be able to identify NP problems?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -82,7 +92,7 @@ var json = {
                     title: "Do you know what is a compiler, linker or interpreter?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -90,23 +100,23 @@ var json = {
                     title: "What is your basic knowleage on compilers, linker and interpreters?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q11",
-                    title: "Are you understands kernel mode vs. user mode, multi-threading, synchronization primitives and how they're implemented, able to read assembly code. Are you understands how networks work, understanding of network protocols and socket level programming?",
+                    title: "Do you understand kernel mode vs. user mode, multi-threading, synchronization primitives and how they're implemented?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q12",
-                    title: "Are you understands the entire programming stack, hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing etc?",
+                    title: "Do you understand the entire programming stack: hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing etc?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
             ]
         }, {
@@ -118,7 +128,7 @@ var json = {
                     title: "Are you able backup folder by date?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -126,39 +136,39 @@ var json = {
                     title: "Do you know what is VSS?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q15",
-                    title: "Are you able use CVS and SVN features. Do you knows how to branch and merge, use patches setup repository properties etc?",
+                    title: "Are you able to use CVS and SVN features (branch, merge, use patches, repository properties, ...)?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q16",
-                    title: "Do you know what is distributed VCS systems?",
+                    title: "Do you know what distributed VCS systems are?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q17",
-                    title: "Do you knows how to build from IDE?",
+                    title: "Do you know how to build source code from IDE?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q18",
-                    title: "Do you knows how to build from the command line?",
+                    title: "Do you know how to build source code from the command line?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -166,15 +176,15 @@ var json = {
                     title: "Do you know how to setup a basic script?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q20",
-                    title: "Do you know how to setup a script to build the system and also documentation, installers, generate release notes and tag the code in source control?",
+                    title: "Do you know how to setup a script, build the system, write documentation, create installers, generate release notes and tag the code in source control?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -182,15 +192,15 @@ var json = {
                     title: "Do you know how to write automated unit tests?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q23",
-                    title: "Are you able write code in TDD manner?",
+                    title: "Are you able to write code in TDD (test driven development) manner?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -198,7 +208,7 @@ var json = {
                     title: "Are you able to setup automated functional, load/performance and UI tests?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
             ]
         }, {
@@ -207,10 +217,10 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q26",
-                    title: "Are you able to break up problem into multiple functions?",
+                    title: "Are you able to break up problem (eg big/long function) into multiple small functions?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -218,23 +228,23 @@ var json = {
                     title: "Are you able to come up with reusable functions/objects that solve the overall problem?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q28",
-                    title: "Are you able to use of appropriate data structures and algorithms and comes up with generic/object-oriented code that encapsulate aspects of the problem?",
+                    title: "Are you able to use appropriate data structures and algorithms and comes up with generic/object-oriented code that encapsulate aspects of the problem?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q29",
-                    title: "Are you able to think above the level of a single file/class?",
+                    title: "Are you able to recognize the level of a single file/class (during create class, refactoring, ...)?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -242,7 +252,7 @@ var json = {
                     title: "Are you able to break up problem space and design solution as long as it is within the same platform/technology?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -250,15 +260,15 @@ var json = {
                     title: "Are you able to design systems that span multiple technologies/platforms?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q32",
-                    title: "Are you able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc?",
+                    title: "Are you able to visualize and design complex systems with multiple product lines and integrations with external systems?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -266,7 +276,7 @@ var json = {
                     title: "Are you able to effectively communicate with peers?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -274,52 +284,36 @@ var json = {
                     title: "Are you able to understand and communicate thoughts/design/ideas/specs in a unambiguous manner and adjusts communication as per the context?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q38",
-                    title: "Are you able grouped methods to logically or by accessibility?",
+                    title: "Are you able to group functions/methods acording to logic?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q39",
-                    title: "Are your code is grouped into regions and well commented with references to other source files?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q40",
-                    title: "Are your file has license header, summary, well commented, consistent white space usage? (The file should look beautiful.)",
+                    title: "Does your source code file consist of license in header, summary, commented functions: separated by empty lines?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q42",
-                    title: "Are you able grouped related files into a folder?",
+                    title: "Are you able to group related files into a folder?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q43",
-                    title: "Are you able divide physical file to a unique purpose, for e.g. one class definition, one feature implementation etc?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q45",
-                    title: "Are you understand problem of everything in one folder?",
+                    title: "Are you able to divide physical file acording to unique purpose?",
                     isRequired: true,
                     colCount: 1,
                     choices: choices
@@ -327,7 +321,7 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q46",
-                    title: "Do you know how to separate code into logical folders?",
+                    title: "Do you know how to separate source code files into logical folders?",
                     isRequired: true,
                     colCount: 1,
                     choices: choices
@@ -335,87 +329,44 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q49",
-                    title: "Do you know how to understand problem of Mono-syllable names?",
+                    title: "Do you know how to solve problem of Mono-syllable names?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q50",
-                    title: "Are you albe create a good names for files, variables classes, methods etc?",
+                    title: "Do you create good/descriptive names for files, variables classes, methods etc?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q53",
-                    title: "Do you know how to understand problem of \"Doesn't understand the concept\"?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q54",
-                    title: "Are you able checks all arguments and asserts critical assumptions in code?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q55",
-                    title: "Do you know how to makes sure to check return values and check for exceptions around code that can fail?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: [
+                        "Who cares about names",
+                        "I use default names",
+                        "I try to be descriptive but, when looking back, I know it could be better",
+                        "The name is very important: should be descriptive and simple. I discuss it with others"
+                    ]
                 },
                 {
                     type: "radiogroup",
                     name: "q58",
-                    title: "Are you able handle error around code that can throw exceptions/generate errors?",
+                    title: "Are you able to handle error that can throw exceptions/generate errors?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q59",
-                    title: "Are you able ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q60",
-                    title: "Are you able codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q61",
-                    title: "Are you able uses IDE for text editing?",
+                    title: "Are you able to use IDE for text editing?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q62",
-                    title: "Do you knows their way around the interface, able to effectively use the IDE using menus?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q63",
-                    title: "Do you knows keyboard shortcuts in your IDE for most used operations?",
+                    title: "Do you know keyboard shortcuts in your IDE for most used operations?",
                     isRequired: true,
                     colCount: 1,
                     choices: choices
@@ -423,7 +374,7 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q64",
-                    title: "Are you able write custom macros in your IDE?",
+                    title: "Are you able to write custom macros in your IDE?",
                     isRequired: true,
                     colCount: 1,
                     choices: choices
@@ -431,82 +382,42 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q65",
-                    title: "Are you need to look up the documentation frequently?",
+                    title: "Do you need to look in to the documentation frequently?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q68",
-                    title: "Do you know how to write libraries that sit on top of the API to simplify frequently used tasks and to fill in gaps in the API?",
+                    title: "Do you know how to write libraries that are on the top of the API?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q70",
-                    title: "Are you heard about but not used the popular frameworks available for the platform?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q71",
-                    title: "Has used more than one framework in a professional capacity and is well-versed with the idioms of the frameworks?",
+                    title: "Are you using more than one framework?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q75",
-                    title: "Has understand complete picture and come up with entire areas that need to be speced?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q76",
-                    title: "Are you able to suggest better alternatives and flows to given requirements based on experience?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q77",
-                    title: "Do you knows knowledge of scripting tools?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q78",
-                    title: "Do you knows batch files/shell scripts?",
+                    title: "Are you using batch files/shell scripts?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q79",
-                    title: "Do you knows Perl/Python/Ruby/VBScript/Powershell?",
+                    title: "Do you know Perl/Python/Ruby/VBScript/Powershell?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q80",
-                    title: "Has written and published reusable code?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
@@ -514,31 +425,26 @@ var json = {
                     title: "Do you thinks that Excel is a database?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: [
+                        "yes",
+                        "no"
+                    ]
                 },
                 {
                     type: "radiogroup",
                     name: "q82",
-                    title: "Do you knows basic database concepts, normalization, ACID, transactions and can write simple selects?",
+                    title: "Do you know database concepts?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q83",
-                    title: "Are you able to design good and normalized database schemas keeping in mind the queries that'll have to be run, proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. Proficient in use of ORM tools?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q84",
-                    title: "Do you knows basic database administration, performance optimization, index optimization, write advanced select queries, able to replace cursor usage with relational sql, understands how data is stored internally, understands how indexes are stored internally, understands how databases can be mirrored, replicated etc? Has you understands how the two phase commit works?",
+                    title: "Do you use database administration: performance optimization, index optimization, queries,...?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
             ]
         }, {
@@ -547,174 +453,133 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q85",
-                    title: "Do you knows what is \"Imperative\" or \"Object Oriented\" programming?",
+                    title: "Do you know what \"Imperative\" or \"Object Oriented\" programming is?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q86",
-                    title: "Do you knows difference between static vs dynamic typing, weak vs strong typing and static inferred types?",
+                    title: "Do you know the difference between static and dynamic types?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q87",
-                    title: "Do you understand lazy evaluation, currying, continuations?",
+                    title: "Do you understand lazy evaluation?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q88",
-                    title: "Do you knows Concurrent (Erlang, Oz) and Logic (Prolog)?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q92",
-                    title: "Have you worked on at least one product in the domain?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q93",
-                    title: "Have you worked on multiple products in the same domain?.",
+                    title: "Have you worked on multiple products in the same domain?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q94",
-                    title: "Have you designed and implemented several products/solutions in the domain, well versed with standard terms, with protocols used in the domain?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
             ]
         }, {
-            title: "Knowledge",
+            title: "General overview",
             questions: [
                 {
                     type: "radiogroup",
-                    name: "q96",
-                    title: "Knows about some alternatives to popular and standard tools?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q97",
-                    title: "Do you knows good knowledge of editors, debuggers, IDEs, open source alternatives etc.?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q98",
-                    title: "Has you wrote tools and scripts?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q104",
-                    title: "Do you knows basic knowledge of the code layout and how to build the system?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q105",
-                    title: "Has you good knowledge of code base, has implemented several bug fixes and maybe some small features?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q106",
-                    title: "Has you implemented multiple big features in the codebase and can easily visualize the changes required for most features or bug fixes?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
                     name: "q107",
-                    title: "Have you heard of the upcoming technologies?",
+                    title: "Are you interested the upcoming technologies?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q112",
-                    title: "Have you basic knowledge of how the platform works internally?",
+                    title: "How important is the functioning of the platform, you work with to you?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
-                },
-                {
-                    type: "radiogroup",
-                    name: "q113",
-                    title: "Have you deep knowledge of platform internals and can visualize how the platform takes the program and converts it into executable code?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices
+                    choices: [
+                        "I don't care about platform",
+                        "I heard about the platform, but it's not my business",
+                        "I know how it works",
+                        "I know how it works, and I can extend it"
+                    ]
                 },
                 {
                     type: "radiogroup",
                     name: "q116",
-                    title: "Have you read book: Code Complete, Don't Make me Think, Mastering Regular Expressions?",
+                    title: "Do you read books, eg.: Code Complete, Don't Make me Think, Mastering Regular Expressions?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q117",
-                    title: "Have you read book: Design Patterns, Peopleware, Programming Pearls, Algorithm Design Manual, Pragmatic Programmer, Mythical Man month?",
+                    title: "Do you read books, eg.: Design Patterns, Peopleware, Programming Pearls, Algorithm Design Manual, Pragmatic Programmer, Mythical Man month?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
+                },
+                {
+                    type: "radiogroup",
+                    name: "q124",
+                    title: "Do you visit, eg.: reddit.com, news.ycombinator.com, lobste.rs, theverge.com?",
+                    isRequired: true,
+                    colCount: 1,
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q119",
-                    title: "Do you knows what is \"Blog\"?",
+                    title: "Do you know what what \"Github\" is?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: [
+                        "I don't know what it is",
+                        "I heard about it",
+                        "I have account but I don't contribute regulary",
+                        "I contribute regulary (currently I working on new issues)"
+                    ]
+                },
+                {
+                    type: "radiogroup",
+                    name: "q122",
+                    title: "Do you know who is \"Uncle Bob\"?",
+                    isRequired: true,
+                    colCount: 1,
+                    choices: choices_alt
+                },
+                {
+                    type: "radiogroup",
+                    name: "q123",
+                    title: "What dou you think about \"Open Source\"?",
+                    isRequired: true,
+                    colCount: 1,
+                    choices: [
+                        "I don't know what it is",
+                        "I heard about it, but I don't care",
+                        "I see its potencial, but I won't share my knowledge for free",
+                        "There is nothing better then sharing of experience and knowledge"
+                    ]
                 },
                 {
                     type: "radiogroup",
                     name: "q120",
-                    title: "Do you reads tech/programming/software engineering blogs and listens to podcasts regularly?",
+                    title: "Do you read tech/programming/software engineering blogs and listens to podcasts regularly?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 },
                 {
                     type: "radiogroup",
                     name: "q121",
-                    title: "Has you write blog with some collection of useful articles and tools that he/she has collected?",
+                    title: "Do you write blog with some collection of useful articles and tools that he/she has collected?",
                     isRequired: true,
                     colCount: 1,
-                    choices: choices
+                    choices: choices_alt
                 }
             ]
 
@@ -740,12 +605,57 @@ survey
         .onComplete
         .add(function (result) {
             //var data = JSON.stringify(result.data);
+
+            $('html,body', window.parent.document).animate({
+                scrollTop: window.parent.$("#test-your-own-skills").offset().top
+            });
+            $('.sv_body.sv_completed_page h3').hide();
+
+            var v = {
+                e: 0,
+                a: 113,
+                b: 226,
+                c: 339,
+                d: 455
+            };
+
             var data = result.data;
             var matrix = {
-                "Beginner": {"value":1, "min":0, "max":118, "next":"Intermediate"},
-                "Intermediate": {"value":2, "min":119, "max":235, "next":"Advanced"},
-                "Advanced": {"value":3, "min":236, "max":353, "next":"Profesional"},
-                "Profesional": {"value":4, "min":356, "max":496, "next":"Profesional"}
+                "Beginner": {"value":1, "min":v.e, "max":v.a, "next":"Intermediate"},
+                "Intermediate": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "Advanced": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "Profesional": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+
+                "I don't know what your talking about": {"value":1, "min":v.e, "max":v.a, "next":"Intermediate"},
+                "I heard about it": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "Yes": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "Of course, no problem": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+
+                "I don't know what it is": {"value":1, "min":v.e, "max":v.a, "next":"Intermediate"},
+                "I heard about it, but I don't care": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "I see its potencial, but I won't share my knowledge for free": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "There is nothing better then sharing of experience and knowledge": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+
+                "I heard about it": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "I have account but I don't contribute regulary": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "I contribute regulary (currently I working on new issues)": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+
+                "I don't care about platform": {"value":1, "min":v.e, "max":v.a, "next":"Intermediate"},
+                "I heard about the platform, but it's not my business": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "I know how it works": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "I know how it works, and I can extend it": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+
+                "Who cares about names": {"value":1, "min":v.e, "max":v.a, "next":"Intermediate"},
+                "I use default names": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "I try to be descriptive but, when looking back, I know it could be better": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "The name is very important: should be descriptive and simple. I discuss it with others": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+
+                "yes": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"},
+                "no": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "Beginner": {"value":1, "min":v.e, "max":v.a, "next":"Intermediate"},
+                "Intermediate": {"value":2, "min":v.a, "max":v.b, "next":"Advanced"},
+                "Advanced": {"value":3, "min":v.b, "max":v.c, "next":"Profesional"},
+                "Profesional": {"value":4, "min":v.c, "max":v.d, "next":"Profesional"}
             };
 
             var maxScore = 0;
@@ -760,18 +670,24 @@ survey
                     if(maxScore >= matrix[key].min && maxScore <= matrix[key].max) {
                         var level = matrix[key].next;
                         if( maxScore >= matrix["Profesional"].min ) {
-                            msg = "Nice, you are ";
-                            level = key;
+                            msg = "Nice, you are <br> ";
+                            level = "Profesional";
                         } else {
-                            var msg = "You have to work harder, if you want to be ";
+                            var msg = "You have to work harder,<br> if you want to be ";
                             if( percent(matrix[key].max, maxScore) <= 50  ) {
                                 level = matrix[key].next;
-                                msg = "You are so close, if you want to be ";
+                                msg = "You are so close,<br> if you want to be ";
                             } 
                             
+                            var p = Math.round((maxScore / matrix[key].max) * 100);
+
                             document
                             .querySelector('#surveyResult')
-                            .innerHTML = "<h1><center>" + msg + level + "</center></h1>";
+                            .innerHTML = "<br>" + 
+                                         "<h3><center>You reached:</center></h3>" +
+                                         "<h1><center style='color:#022b6d; font-weight:bold; font-size: 85px'>" + p + "%</center></h1>" + 
+                                         "<h3><center>" + msg + level + "</center></h3>"
+                            ;
                         }
                     }
                 }
@@ -793,16 +709,7 @@ function loadState(survey) {
         res = {
             currentPageNo: 0,
             data: {
-                "satisfaction": "4",
-                "Quality": {
-                    "does what it claims": "1"
-                },
-                "recommend friends": "3",
-                "price to competitors": "More expensive",
-                "price": "correct",
-                "pricelimit": {
-                    "mostamount": ""
-                }
+
             }
         };
     //Set the loaded data into the survey.
@@ -836,10 +743,12 @@ survey
             //save the data on survey complete. You may call another function to store the final results
             saveState(survey);
         });
+
 //Load the initial state
 loadState(survey);
 //save the data every x seconds
 timerId = window.setInterval(function () {
     saveState(survey);
-}, 300000);
+}, 600000);
+
 $("#surveyElement").Survey({model: survey});

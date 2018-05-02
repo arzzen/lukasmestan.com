@@ -140,7 +140,8 @@
 .sv_main {
   position: relative;
   width: 100%;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+ "Helvetica Neue", Arial, sans-serif;
   font-size: 14px; }
   .sv_main hr {
     border: none; }
@@ -278,7 +279,7 @@
           margin-right: 1.5em; }
         .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_radiogroup > label,
         .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_checkbox > label {
-          white-space: nowrap; }
+          white-space: nowrap; font-weight: 100; }
         .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_checkbox_inline,
         .sv_main .sv_container .sv_body .sv_p_root .sv_q .sv_q_radiogroup_inline {
           line-height: 2em; }
