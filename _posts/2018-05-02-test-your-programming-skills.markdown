@@ -2,7 +2,7 @@
 title: "Test your programming skills"
 layout: post
 date: 2018-05-01 01:00
-image: /assets/images/measure-programming-proficiency.jpg
+image: /assets/images/test-your-programming-skills.png
 headerImage: false
 tag: [programming, measurements, skills, level]
 star: true
