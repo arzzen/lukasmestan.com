@@ -96,14 +96,6 @@ var json = {
                 },
                 {
                     type: "radiogroup",
-                    name: "q10",
-                    title: "What is your basic knowleage on compilers, linker and interpreters?",
-                    isRequired: true,
-                    colCount: 1,
-                    choices: choices_alt
-                },
-                {
-                    type: "radiogroup",
                     name: "q11",
                     title: "Do you understand kernel mode vs. user mode, multi-threading, synchronization primitives and how they're implemented?",
                     isRequired: true,
@@ -534,7 +526,7 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "q119",
-                    title: "Do you know what what \"Github\" is?",
+                    title: "Do you know what \"Github\" is?",
                     isRequired: true,
                     colCount: 1,
                     choices: [
