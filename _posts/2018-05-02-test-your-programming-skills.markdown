@@ -37,4 +37,7 @@ Using the questionnaire below, you can assess your level of programming skills.
 
 Filling this questionnaire in takes around 15 minutes.
 <br>
-<iframe src="/assets/pcm/index.html" height="2600px" width="810px" frameBorder="0"></iframe>
+
+<style>iframe{width: 1px;min-width: 100%;}</style>
+<iframe src="/assets/pcm/index.html" scrolling="no" id="myIframe" frameBorder="0"></iframe>
+<script>$('iframe').iFrameResize();</script>
