@@ -39,6 +39,5 @@ Filling this questionnaire in takes around 15 minutes.
 <br>
 
 
-<iframe style="border: 0; overflow: hidden; height: 5300px; width: 100%;" src="/assets/pcm/index.html" id="myIframe" frameBorder="0"></iframe>
-<script type="text/javascript">$('iframe').iFrameResize();</script>
+<iframe style="border: 0; overflow: hidden; height: 6300px; width: 100%;" src="/assets/pcm/index.html" id="myIframe" frameBorder="0"></iframe>
 
