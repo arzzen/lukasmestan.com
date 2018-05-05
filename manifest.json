@@ -1,0 +1,9 @@
+{
+  "name": "lukasmestan.com",
+  "short_name": "Lukas Mestan",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#022b6d",
+  "background_color": "#ffffff"
+}
