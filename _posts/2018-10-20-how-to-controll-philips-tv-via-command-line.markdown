@@ -1,5 +1,5 @@
 ---
-title: "How to controll philips tv via command line"
+title: "How to controll Philips tv via command line"
 layout: post
 date: 2018-10-20 10:00
 image: /assets/images/bash-philips-tv.jpg
@@ -9,7 +9,7 @@ star: true
 category: blog
 author: arzzen
 commentIssueId: 13
-description: How to controll philips tv via command line
+description: How to controll Philips tv via command line
 ---
 
 
