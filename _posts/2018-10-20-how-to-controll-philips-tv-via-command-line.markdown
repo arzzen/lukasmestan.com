@@ -84,7 +84,7 @@ export _TV_IP="192.168.x.x" && export _TV_COMMAND="ambilight/topology" && ./tv.s
 
 ## Usage
 
-<video width="480" height="320" controls="controls" muted="muted">
+<video width="100%" height="420" controls="controls" muted="muted">
 <source src="/assets/videos/remote_control.mp4" type="video/mp4">
 </video>
 
