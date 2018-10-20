@@ -5,7 +5,7 @@ date: 2018-05-01 01:00
 image: /assets/images/test-your-programming-skills.png
 headerImage: false
 tag: [programming, measurements, skills, level]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 12

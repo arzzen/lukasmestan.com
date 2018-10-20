@@ -13,11 +13,11 @@ description: How to controll philips tv via command line
 ---
 
 
-I wrote a bash script providing a bunch of functions to control your TV based on most common scripting language easily from command line.
+I wrote a [bash script](https://github.com/arzzen/philips-tv) providing a bunch of functions to control your TV based on most common scripting language easily from command line.
 If you own a 2016/2017/2018 model (xxPFL5xx6 to xxPFL9xx6 or xxPUSxxxx), you can now use HTTP JSON queries to do more with the TV.
 I have model Philips 49PUS7181 which I tested it on.
 
-This script provides a rich set of functions allowing to control your Android TV. 
+This script [https://github.com/arzzen/philips-tv](https://github.com/arzzen/philips-tv) provides a rich set of functions allowing to control your Android TV. 
 Basicly it uses HTTP API to send commands to the TV. I use it to switch on/off the TV, select channels etc. 
 
 First, you need to know your IP tv.
