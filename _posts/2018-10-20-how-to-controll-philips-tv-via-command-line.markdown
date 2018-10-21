@@ -8,7 +8,7 @@ tag: [philips, tv, remote, api]
 star: true
 category: blog
 author: arzzen
-commentIssueId: 13
+commentIssueId: 14
 description: How to controll Philips tv via command line
 ---
 
