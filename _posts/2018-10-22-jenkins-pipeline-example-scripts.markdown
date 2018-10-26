@@ -281,7 +281,7 @@ def getGitProjectDetails(def projectId, def gitUrl, def gitPrivateToken) {
 }
 
 // example
-def projectDetails = getGitProjectDetails("nazov-projectu", "https://gitlab.com/", "superultratajnytoken")
+def projectDetails = getGitProjectDetails("project-name", "https://gitlab.com/", "supertrupersecrettoken")
 
 echo projectDetails.projectTags
 echo projectDetails.defaultBranch
