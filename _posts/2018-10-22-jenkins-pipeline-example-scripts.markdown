@@ -5,7 +5,7 @@ date: 2018-10-22 10:00
 image: /assets/images/uzitocne-funkcnosti.png
 headerImage: false
 tag: [jenkins, pipeline, CI, scripts]
-star: false
+star: true
 category: blog
 author: arzzen
 commentIssueId: 15

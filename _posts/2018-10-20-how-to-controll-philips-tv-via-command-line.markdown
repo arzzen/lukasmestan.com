@@ -5,7 +5,7 @@ date: 2018-10-20 10:00
 image: /assets/images/bash-philips-tv.jpg
 headerImage: false
 tag: [philips, tv, remote, api]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 14
