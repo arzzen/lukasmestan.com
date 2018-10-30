@@ -5,7 +5,7 @@ date: 2018-10-28 10:00
 image: /assets/images/adwords-scripts-multi-files.png
 headerImage: false
 tag: [adwords, scripts]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 17
