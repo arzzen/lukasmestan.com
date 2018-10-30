@@ -8,7 +8,7 @@ tag: [adwords, scripts]
 star: true
 category: blog
 author: arzzen
-commentIssueId: 15
+commentIssueId: 18
 description: Adwords scripts tips and tricks. 
 ---
 
