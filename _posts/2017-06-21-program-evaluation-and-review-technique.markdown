@@ -1,5 +1,5 @@
 ---
-title: "[en] Program evaluation and review technique"
+title: "Program evaluation and review technique"
 layout: post
 date: 2017-06-21 16:00
 tag: [bash, pert, review, evaluation, statistics]
