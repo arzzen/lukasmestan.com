@@ -4,7 +4,7 @@ layout: post
 date: 2018-10-20 10:00
 image: /assets/images/bash-philips-tv.jpg
 headerImage: false
-tag: [philips, tv, remote, api]
+tag: [philips, tv, remote, bash, api]
 star: false
 category: project
 projects: true

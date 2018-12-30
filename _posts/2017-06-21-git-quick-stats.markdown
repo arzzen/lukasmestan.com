@@ -6,10 +6,11 @@ tag: [git, bash, statistics]
 image: https://arzzen.github.io/git-quick-stats/bg.png
 headerImage: false
 projects: true
-hidden: true # don't count this post in blog pagination
+star: false
 description: "Git quick statistics is a simple and efficient way to access various statistics in git repository"
 category: project
 author: arzzen
+commentIssueId: 21
 externalLink: false
 ---
 

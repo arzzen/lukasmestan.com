@@ -6,10 +6,11 @@ tag: [bash, pert, review, evaluation, statistics]
 image: https://arzzen.github.io/git-quick-stats/bg.png
 headerImage: false
 projects: true
-hidden: true # don't count this post in blog pagination
+star: false
 description: "A simple utility to estimate tasks using PERT (Program evaluation and review technique)"
 category: project
 author: arzzen
+commentIssueId: 22
 externalLink: false
 ---
 
