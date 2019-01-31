@@ -8,11 +8,9 @@ tag: [ssh, linux]
 star: false
 category: blog
 author: arzzen
-commentIssueId: 21
+commentIssueId: 23
 description: SSH was not starting correctly on system startup.
 ---
-
-# SSH was not starting correctly on system startup
 
 ### Problem
 
