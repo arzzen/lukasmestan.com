@@ -1,5 +1,5 @@
 ---
-title: "RabbitMQ - Broken pipe or closed connection."
+title: "RabbitMQ - Broken pipe or closed connection"
 layout: post
 date: 2018-12-20 10:00
 image: /assets/images/bash.png
