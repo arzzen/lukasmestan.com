@@ -8,7 +8,7 @@ tag: [big-o, algorithm]
 star: false
 category: blog
 author: arzzen
-commentIssueId: 23
+commentIssueId: 25
 description: A simple guide to Big-O notation
 ---
 
