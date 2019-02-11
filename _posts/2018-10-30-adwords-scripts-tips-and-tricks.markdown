@@ -5,7 +5,7 @@ date: 2018-10-30 10:00
 image: /assets/images/adwords-code-gs.png
 headerImage: false
 tag: [adwords, scripts]
-star: true
+star: false
 category: blog
 author: arzzen
 commentIssueId: 18
