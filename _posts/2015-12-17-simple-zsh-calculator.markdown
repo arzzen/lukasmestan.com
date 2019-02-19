@@ -9,7 +9,7 @@ star: false
 description: "Simple zsh calculator"
 category: project
 author: arzzen
-commentIssueId: 22
+commentIssueId: 26
 externalLink: false
 ---
 
