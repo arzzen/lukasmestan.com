@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline :electric_plug:"
+title: "Jenkins Pipeline"
 layout: post
 date: 2017-07-02 17:00
 image: /assets/images/Jenkins-pipeline.png
