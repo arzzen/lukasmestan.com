@@ -93,3 +93,8 @@ mcrypt_filter support => enabled
 mcrypt.algorithms_dir => no value => no value
 mcrypt.modes_dir => no value => no value
 ```
+
+#### FAQ
+
+Q: I see error message: `ERROR: 'phpize' failed` <br>
+A: You can install php7.2-dev `apt-get install php7.2-dev`
