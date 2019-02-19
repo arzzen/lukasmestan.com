@@ -1,5 +1,5 @@
 ---
-title: "Git quick statistics :chart_with_upwards_trend:"
+title: "Git quick statistics"
 layout: post
 date: 2017-06-21 15:00
 tag: [git, bash, statistics]
