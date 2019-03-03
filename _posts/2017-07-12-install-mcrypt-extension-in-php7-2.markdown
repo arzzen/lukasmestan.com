@@ -5,11 +5,11 @@ date: 2017-12-20 10:00
 image: /assets/images/php-mcrypt.jpg
 headerImage: false
 tag: [php7, tutorial]
-star: false
+star: true
 category: blog
 author: arzzen
 commentIssueId: 10
-description: How to install mcrypt extension in php7.2
+description: How to install mcrypt extension in php7.2 or php7.3
 ---
 
 The _mcrypt_ extension is an interface to the _mcrypt_ cryptography library. 
@@ -98,3 +98,6 @@ mcrypt.modes_dir => no value => no value
 
 Q: I see error message: `ERROR: 'phpize' failed` <br>
 A: You can install php7.2-dev `apt-get install php7.2-dev`
+
+Q: What is the solution for installing on a PHP 7.1 and highet setup on MacOS / OSX?<br>
+A: You can use [macports](https://www.macports.org/), after then you can install `sudo port install php71-mcrypt`
