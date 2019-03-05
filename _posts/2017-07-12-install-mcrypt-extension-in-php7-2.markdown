@@ -1,5 +1,5 @@
 ---
-title: "How to install mcrypt in php7.2"
+title: "How to install mcrypt in php7.2 / php7.3"
 layout: post
 date: 2017-12-20 10:00
 image: /assets/images/php-mcrypt.jpg
