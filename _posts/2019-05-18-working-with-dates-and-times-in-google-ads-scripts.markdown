@@ -2,13 +2,13 @@
 title: "Working with dates and times in Google Ads scripts"
 layout: post
 date: 2019-05-18 10:00
-image: /assets/images/big-o.png
+image: /assets/images/adwords-code-gs.png
 headerImage: false
 tag: [adwords, ads scripts, google, date, time]
 star: false
 category: blog
 author: arzzen
-commentIssueId: 25
+commentIssueId: 28
 description: Working with dates and times in Google Ads scripts
 ---
 
