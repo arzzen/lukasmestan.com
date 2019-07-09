@@ -19,6 +19,17 @@ The main problem with _mcrypt_ extension is that it is based on _libmcrypt_ that
 Thus, it has been already 10 years, even though the library has been still used. However, 
 without the proper developement and maintenance library has become security alert for many system administrators.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1559149447115060"
+     data-ad-slot="6022576237"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Because of the end of the _mcrypt_ extension's development, 
 the extention was also removed from PHP 7.2 and moved to an unofficial PECL repository. 
 However, you can still find the _mcrypt_ extention in PHP 5.4 through PHP 7.1. 
