@@ -20,12 +20,13 @@ Thus, it has been already 10 years, even though the library has been still used.
 without the proper developement and maintenance library has become security alert for many system administrators.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Clanok 2 -->
 <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
+     style="display:block"
      data-ad-client="ca-pub-1559149447115060"
-     data-ad-slot="6022576237"></ins>
+     data-ad-slot="7990264026"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
