@@ -18,6 +18,18 @@ Its goal is to provide all of the core operations needed to build higher-level c
 
 Sodium supports a variety of compilers and operating systems, including Windows (with MinGW or Visual Studio, x86 and x64), iOS and Android.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Clanok 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1559149447115060"
+     data-ad-slot="7990264026"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 To install this extension on PHP 7.1, run the following commands as your server's root user:
 
 ## Verify php and pecl version
