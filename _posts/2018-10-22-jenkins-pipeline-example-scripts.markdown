@@ -43,6 +43,18 @@ How to get git commit hash:
 def commitHash = sh(returnStdout: true, script: 'git rev-parse HEAD').trim().take(7)
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Clanok 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1559149447115060"
+     data-ad-slot="7990264026"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 How to get commit message:
 ```groovy
 def commitText = sh(returnStdout: true, script: 'git show -s --format=format:"*%s*  _by %an_" HEAD').trim()
@@ -123,6 +135,18 @@ def sortReverse(list) {
     list.reverse()
 }
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Clanok 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1559149447115060"
+     data-ad-slot="7990264026"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 How to get job status?
 ```groovy
@@ -251,6 +275,18 @@ for (String slave : getSlaves()) {
     }
 }
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Clanok 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1559149447115060"
+     data-ad-slot="7990264026"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 How to load data from url?
 ```groovy
