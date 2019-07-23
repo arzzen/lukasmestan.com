@@ -71,8 +71,11 @@ The size setting of the number of returned results needs to be tuned with the nu
 Example of the process for balancing values for `size` and `num_partitions` should be:
 
 1, use the `cardinality` aggregation to estimate the total number of unique values,
+
 2, pick a value for `num_partitions` to break the number from 1 up into more manageable chunks,
+
 3, pick a `size` value for the number of responses you want from each partition,
+
 4, run a test request.
 
 > If you have a `circuit-breaker error`, you must increase `num_partitions`!
