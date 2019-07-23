@@ -12,10 +12,6 @@ commentIssueId: 29
 description: Learn how to use scroll Elasticsearch aggregation
 ---
 
-#### Do you have too much data in aggregation results in a single query?
-
-or
-
 #### Do you have too many results from aggregations in a single query?
 
 If so, then you can read this quick tutorial, which might be helpful. 
@@ -47,7 +43,7 @@ For instance, in the query below, you can request to your buckets into 20 partit
 }
 ```
 
-You can make the second request by increasing the partition to 1 and more.
+You can make the second request by increasing the `partition` to 1, until 19.
 ```json
 {
    "size": 0,
@@ -56,7 +52,7 @@ You can make the second request by increasing the partition to 1 and more.
          "terms": {
             "field": "your_field_name",
             "include": {
-               "partition": 1,  <-----<-----< increase this up until partition 19
+               "partition": 1, 
                "num_partitions": 20
             },
             "size": 10000,
@@ -69,7 +65,7 @@ You can make the second request by increasing the partition to 1 and more.
 }
 ```
 
-You need to run the query 20 times for each partition (one query per partition). 
+You need to run the query 20 times for each partition (one query per partition, from 0 to 19). 
 The size setting of the number of returned results needs to be tuned with the num_partitions.
 
 Example of the process for balancing values for `size` and `num_partitions` should be:
@@ -79,7 +75,7 @@ Example of the process for balancing values for `size` and `num_partitions` shou
 3, pick a `size` value for the number of responses you want from each partition,
 4, run a test request.
 
-> If you have a `circuit-breaker error`, you must increase num_partitions!
+> If you have a `circuit-breaker error`, you must increase `num_partitions`!
 
 If your aggregation response is not complete, you must either:
 
