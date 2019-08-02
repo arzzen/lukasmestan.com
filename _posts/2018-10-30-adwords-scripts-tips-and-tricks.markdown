@@ -1,5 +1,5 @@
 ---
-title: "Adwords scripts tips and tricks"
+title: "Adwords scripts example tips and tricks"
 layout: post
 date: 2018-10-30 10:00
 image: /assets/images/adwords-code-gs.png
@@ -9,7 +9,7 @@ star: false
 category: blog
 author: arzzen
 commentIssueId: 18
-description: Adwords scripts tips and tricks. 
+description: Adwords scripts example tips and tricks. 
 ---
 
 
