@@ -1,7 +1,7 @@
 ---
 title: "Adwords scripts example tips and tricks - second part"
 layout: post
-date: 2018-10-30 10:00
+date: 2019-08-02 10:00
 image: /assets/images/adwords-code-gs.png
 headerImage: false
 tag: [adwords, scripts]
