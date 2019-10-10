@@ -3,6 +3,23 @@ layout: page
 title: Projects
 ---
 <section class="list">
+    
+<h1>What I create</h1>
+
+
+<p>All of my work is technical and mostly language agnostic. Here is some of my work you might have seen around town:</p>
+
+<ul>
+    <li><strong><a href="https://github.com/arzzen/git-quick-stats">git-quick-stats</a></strong> ▁▅▆▃▅ Git quick statistics is a simple and efficient way to access various statistics in git repository.</li>
+    <li><strong><a href="https://github.com/arzzen/pert">pert</a></strong> A simple command line (bash/shell) utility to estimate tasks using PERT</li>
+    <li><strong><a href="https://github.com/arzzen/philips-tv">philips-tv</a></strong> Tools to control Philips (2016, 2017, 2018, 2019) Android TV via command line.</li>
+    <li><strong><a href="https://github.com/arzzen/python-simple-brainwallet">python-simple-brainwallet</a></strong> A brainwallet refers to the concept of storing Bitcoins in one's own mind by memorization of a passphrase</li>
+    <li><strong><a href="https://github.com/arzzen?tab=repositories">other projects</a></strong> </li>
+    <li><a href="https://gitstalk.netlify.com/arzzen">stalk me</a>  </li>
+</ul>
+
+
+{% comment %}
     {% for post in site.posts %}
         {% if post.projects %}
             <div class="item {% if post.star %}star{% endif %}">
@@ -13,4 +30,6 @@ title: Projects
             </div>
         {% endif %}
     {% endfor %}
+{% endcomment %}
+
 </section>

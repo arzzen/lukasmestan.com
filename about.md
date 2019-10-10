@@ -3,7 +3,9 @@ title: About
 layout: page
 ---
 
-## Me...
+<section class="list">
+    <h1> Me...</h1>
+</section>
 
 Technology is my passion, and has always been since I was a kid. In particular, 
 I have always been interested in programming, and all the technologies 

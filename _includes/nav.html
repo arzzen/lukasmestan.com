@@ -2,26 +2,26 @@
 </div>
 
 <div style="background-color: #022b6d;" class="nv center-block text-center">
-    {% if page.title != "Home" %}
+    
+    {% comment %}
+        {% if page.title != "Home" %}
+        {% endif %}
+    {% endcomment %}
+    
         <a class="btn btn-lg" href="{{ site.url }}/">Home</a>
-    {% endif %}
 
     {% if site.blog == true %}
-        {% if page.title != "Blog" %}
-            <a class="btn btn-lg" href="{{ site.url }}/blog">Blog</a>
-        {% endif %}
+        <a class="btn btn-lg" href="{{ site.url }}/blog">Blog</a>
     {% endif %}
 
     {% if site.projects == true %}
-        {% if page.title != "Projects" %}
-            <a class="btn btn-lg" href="{{ site.url }}/projects">Projects</a>
-        {% endif %}
+        <a class="btn btn-lg" href="{{ site.url }}/projects">Projects</a>
     {% endif %}
+    
+        <a class="btn btn-lg" href="{{ site.url }}/thanks">Supporters</a>
 
     {% if site.about == true %}
-        {% if page.title != "About" %}
-            <a class="btn btn-lg" href="{{ site.url }}/about">About</a>
-        {% endif %}
+        <a class="btn btn-lg" href="{{ site.url }}/about">About</a>
     {% endif %}
 
     {% if site.resume == true %}
