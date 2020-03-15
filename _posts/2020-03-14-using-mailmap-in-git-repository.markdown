@@ -8,7 +8,7 @@ tag: [git, repository, bash]
 star: false
 category: blog
 author: arzzen
-commentIssueId: 30
+commentIssueId: 31
 description: How to use .mailmap file in git repository.
 ---
 
