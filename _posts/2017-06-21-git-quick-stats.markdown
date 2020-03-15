@@ -3,7 +3,7 @@ title: "Git quick statistics"
 layout: post
 date: 2017-06-21 15:00
 tag: [git, bash, statistics]
-image: https://arzzen.github.io/git-quick-stats/bg.png
+image: https://user-images.githubusercontent.com/8818630/58364013-61e53800-7e7b-11e9-87f9-790d6744fbd5.png
 headerImage: false
 projects: true
 star: false
@@ -15,7 +15,7 @@ externalLink: false
 ---
 
 <center>
-    <img alt="git-stats" src="https://arzzen.github.io/git-quick-stats/bg.png" />
+    <img alt="git-stats" src="https://user-images.githubusercontent.com/8818630/58364013-61e53800-7e7b-11e9-87f9-790d6744fbd5.png" />
 </center>
 
 > `git quick-stats` is a simple and efficient way to access various statistics in git repository.
