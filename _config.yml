@@ -88,8 +88,10 @@ animation: false
 
 github_comments: true
 
-#gems:
-plugins:
+gems:
+  - jekyll-seo-tag
+
+plugins_dir:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
