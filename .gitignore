@@ -3,3 +3,5 @@ _site
 _posts/_*
 .sass-cache
 /nbproject/*
+
+.now
